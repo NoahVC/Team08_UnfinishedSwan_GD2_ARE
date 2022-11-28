@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orientation: {fileID: 4781051815768040816}
-  walkSpeed: 6
+  walkSpeed: 7
   acceleration: 10
   jumpForce: 10
   canClimb: 0
