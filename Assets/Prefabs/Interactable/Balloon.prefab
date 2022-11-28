@@ -108,7 +108,6 @@ GameObject:
   - component: {fileID: 2176030958415896450}
   - component: {fileID: 1611111927}
   - component: {fileID: 237378085}
-  - component: {fileID: 237378088}
   - component: {fileID: 237378087}
   m_Layer: 0
   m_Name: Balloon
@@ -164,20 +163,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &237378088
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4407708403184356662}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.7
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: -1, z: 0}
 --- !u!114 &237378087
 MonoBehaviour:
   m_ObjectHideFlags: 0

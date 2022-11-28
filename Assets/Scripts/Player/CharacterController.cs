@@ -109,7 +109,7 @@ public class CharacterController : MonoBehaviour
         if (other.CompareTag("Ladder"))
         {
             rb.useGravity = false;
-            Debug.Log("on trigger");
+           // Debug.Log("on trigger");
             rb.constraints = RigidbodyConstraints.FreezePositionZ;
             rb.constraints = RigidbodyConstraints.FreezeRotation;
         }
@@ -129,7 +129,7 @@ public class CharacterController : MonoBehaviour
             canClimb = false;
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezeRotation;
-            Debug.LogFormat("Grounded");
+            //Debug.LogFormat("Grounded");
         }
     }
     void OnTriggerExit(Collider other)
@@ -137,7 +137,7 @@ public class CharacterController : MonoBehaviour
         if (other.CompareTag("Ladder"))
         {
             rb.useGravity = true;
-            Debug.Log("out trigger");
+           // Debug.Log("out trigger");
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezeRotation;
             canClimb = false;
@@ -157,7 +157,7 @@ public class CharacterController : MonoBehaviour
         if (isGrounded)
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier, ForceMode.Acceleration);
-            Debug.Log("Moving");
+           // Debug.Log("Moving");
         }
         else if (isGrounded && OnSlope())
         {

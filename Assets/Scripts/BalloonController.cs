@@ -6,6 +6,7 @@ public class BalloonController : MonoBehaviour
 {
     private Rigidbody rb;
     private bool _isActivated;
+    private bool doOnce;
     private float totalTime = 3f;
     private float currentTime = 0;
     public float floatForce = 5f;
@@ -44,9 +45,10 @@ public class BalloonController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Paintball"))
+        if (other.CompareTag("Paintball") && !doOnce)
         {
             isActivated = true;
+            doOnce = false; 
             hud.currentBalloons += 1;
         }
     }

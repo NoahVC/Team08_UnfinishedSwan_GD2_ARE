@@ -16,7 +16,10 @@ public class HUD : MonoBehaviour
     }
     private int _totalBalloons = 5;
 
-
+    private void Start()
+    {
+        gameObject.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {
