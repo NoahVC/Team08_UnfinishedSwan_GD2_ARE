@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1154222185176391363}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 7690065825247147148}
   - component: {fileID: 1356803501941511933}
   - component: {fileID: 1518240929501432346}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Crane
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -145,6 +145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ce4337d7ab8134e91fb08f9d2e528a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _minRotation: 0
+  _maxRotation: 360
 --- !u!1 &7484533366662631603
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +158,7 @@ GameObject:
   - component: {fileID: 9083900884072950040}
   - component: {fileID: 3384302040822517795}
   - component: {fileID: 1929975359649998639}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Fake Ladder Hitbox
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -212,7 +214,7 @@ GameObject:
   - component: {fileID: 8711135536609219299}
   - component: {fileID: 3949958466203847054}
   - component: {fileID: 333690995127584779}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: CraneBridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,10 +617,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Valve (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 294883773775880876, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 447334104100063179, guid: 3e29d1ceee90b654794a6362ef59a728,
         type: 3}
       propertyPath: m_Size.y
       value: 2.0000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988751380936810932, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2659553902775169417, guid: 3e29d1ceee90b654794a6362ef59a728,
         type: 3}
@@ -640,10 +652,30 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2.0000014
       objectReference: {fileID: 0}
+    - target: {fileID: 3473851316213694129, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3669730732574615921, guid: 3e29d1ceee90b654794a6362ef59a728,
         type: 3}
       propertyPath: m_Size.y
       value: 2.0000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672542783492541161, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5375180521258992373, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757450519988244179, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5832796302158094478, guid: 3e29d1ceee90b654794a6362ef59a728,
         type: 3}
@@ -665,6 +697,11 @@ PrefabInstance:
       propertyPath: _activatableObjects.Array.data[0]
       value: 
       objectReference: {fileID: 3382905090159912503}
+    - target: {fileID: 6330209608249136547, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6489174821673639488, guid: 3e29d1ceee90b654794a6362ef59a728,
         type: 3}
       propertyPath: m_RootOrder
@@ -820,6 +857,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.4868452
       objectReference: {fileID: 0}
+    - target: {fileID: 7650562787013704951, guid: 3e29d1ceee90b654794a6362ef59a728,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8873571520182502452, guid: 3e29d1ceee90b654794a6362ef59a728,
         type: 3}
       propertyPath: _resistance
@@ -924,6 +966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ladder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225078219474100101, guid: 14e3e37d176574147a6081198017f92d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8815702090757515537, guid: 14e3e37d176574147a6081198017f92d,
         type: 3}
