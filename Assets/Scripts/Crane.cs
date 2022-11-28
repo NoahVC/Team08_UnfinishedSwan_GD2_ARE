@@ -8,6 +8,11 @@ public class Crane : ValveActivatable
     private float _rotation;
     private float _initialRotation;
 
+    [SerializeField]
+    private float _minRotation=0;
+    [SerializeField]
+    private float _maxRotation=360;
+
     private void Start()
     {
         _initialRotation = transform.rotation.eulerAngles.z;
@@ -17,9 +22,8 @@ public class Crane : ValveActivatable
     void Update()
     {
         Vector3 temp = transform.rotation.eulerAngles;
-        float change =Mathf.Clamp((_initialRotation + _rotation), -180, 90);
+        float change = Mathf.Clamp((_initialRotation + _rotation), _minRotation, _maxRotation);
         _joint.MoveRotation(Quaternion.Euler(temp.x, change, temp.z));
-
     }
 
     public override void Activate(float rotation)

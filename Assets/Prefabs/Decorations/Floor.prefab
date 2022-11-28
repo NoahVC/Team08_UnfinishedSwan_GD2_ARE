@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3147646100499234519}
   - component: {fileID: 3147646100499234516}
   - component: {fileID: 3147646100499234517}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Body
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3013173205370265985}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Ground
   m_Icon: {fileID: 0}

@@ -10,6 +10,8 @@ TagManager:
   - RespawnManager
   - Ladder
   - Paintball
+  - Water
+  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
