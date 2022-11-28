@@ -22,7 +22,9 @@ public class Crane : ValveActivatable
     void Update()
     {
         Vector3 temp = transform.rotation.eulerAngles;
-        float change = Mathf.Clamp((_initialRotation + _rotation), _minRotation, _maxRotation);
+        float change = Mathf.Clamp((_initialRotation + _rotation), _initialRotation + _minRotation, _initialRotation + _maxRotation);
+        //float change = _initialRotation + _rotation;
+        Debug.Log(change);
         _joint.MoveRotation(Quaternion.Euler(temp.x, change, temp.z));
     }
 
