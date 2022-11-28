@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5232904254348811340}
   - component: {fileID: 7486684603274103907}
   - component: {fileID: 8896559773696990110}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: PaintBall
   m_TagString: Paintball
   m_Icon: {fileID: 0}
@@ -127,12 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de953df8c59d8a46a64c08ee96b1306, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sphere: {fileID: 0}
   PaintDecalPrefab: {fileID: 8116189990249727534, guid: e3f9f0f00a1f79b4899bbe9330a8a54a,
     type: 3}
-  SplashRange: 1.5
-  MinScale: 0.75
-  MaxScale: 3
   _rigidbody: {fileID: 7486684603274103907}
   DecalsParent: {fileID: 0}
   paintColor: {r: 0.3537736, g: 1, b: 0.954848, a: 0}

@@ -9269,12 +9269,12 @@ PrefabInstance:
     - target: {fileID: 1518240929501432346, guid: 73c8b00a216ee554cba4fbdf37589cf6,
         type: 3}
       propertyPath: _maxRotation
-      value: 90
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 1518240929501432346, guid: 73c8b00a216ee554cba4fbdf37589cf6,
         type: 3}
       propertyPath: _minRotation
-      value: -125
+      value: -1000
       objectReference: {fileID: 0}
     - target: {fileID: 1603649875665863890, guid: 73c8b00a216ee554cba4fbdf37589cf6,
         type: 3}
