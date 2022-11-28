@@ -10,7 +10,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] float walkSpeed = 4.0f;
     [SerializeField] float acceleration = 10.0f;
     [Header("Jumping")]
-    public float jumpForce = 6f;
+    public float jumpForce = 10f;
 
     [Header("Climbing")]
 
