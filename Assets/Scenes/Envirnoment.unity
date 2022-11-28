@@ -3175,8 +3175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterCube
       objectReference: {fileID: 0}
+    - target: {fileID: 7115916743880691918, guid: e0736c331e30de94e937b81517401335,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0736c331e30de94e937b81517401335, type: 3}
+<<<<<<< HEAD
 --- !u!1001 &345139160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3361,6 +3367,28 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e829199df5e8dd4a812758f5b6f2674, type: 3}
 --- !u!1001 &365835388
+=======
+--- !u!1 &343187665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2903603230662549589, guid: e0736c331e30de94e937b81517401335,
+    type: 3}
+  m_PrefabInstance: {fileID: 343187664}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &343187666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343187665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c51f63c0913dcd44acd355718aec405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1563341686}
+--- !u!1001 &374567242
+>>>>>>> df0a45fe9d8b765f2c05885593a87c9c15c86c44
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -16170,7 +16198,7 @@ PrefabInstance:
     - target: {fileID: 4177678822511124435, guid: ad7fd7306da8e8d4ca9f5247d140df83,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.36
+      value: -1.86
       objectReference: {fileID: 0}
     - target: {fileID: 4177678822511124435, guid: ad7fd7306da8e8d4ca9f5247d140df83,
         type: 3}
@@ -16219,6 +16247,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad7fd7306da8e8d4ca9f5247d140df83, type: 3}
+--- !u!1 &1563341686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7518605819736110571, guid: ad7fd7306da8e8d4ca9f5247d140df83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1563341685}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1569030602
 PrefabInstance:
   m_ObjectHideFlags: 0
