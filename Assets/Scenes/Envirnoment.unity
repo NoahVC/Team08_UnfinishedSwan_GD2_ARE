@@ -3462,6 +3462,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterCube
       objectReference: {fileID: 0}
+    - target: {fileID: 5752472110799062844, guid: e0736c331e30de94e937b81517401335,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1563341686}
     - target: {fileID: 7115916743880691918, guid: e0736c331e30de94e937b81517401335,
         type: 3}
       propertyPath: m_IsTrigger
@@ -17240,17 +17245,17 @@ PrefabInstance:
     - target: {fileID: 4177678822511124435, guid: ad7fd7306da8e8d4ca9f5247d140df83,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 58.69
       objectReference: {fileID: 0}
     - target: {fileID: 4177678822511124435, guid: ad7fd7306da8e8d4ca9f5247d140df83,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2
+      value: -1.78
       objectReference: {fileID: 0}
     - target: {fileID: 4177678822511124435, guid: ad7fd7306da8e8d4ca9f5247d140df83,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.3
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 4177678822511124435, guid: ad7fd7306da8e8d4ca9f5247d140df83,
         type: 3}
@@ -18132,7 +18137,7 @@ PrefabInstance:
     - target: {fileID: 2176030958415896450, guid: df98a8574ceb12041b81751c14e69979,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.29
+      value: 67.73
       objectReference: {fileID: 0}
     - target: {fileID: 2176030958415896450, guid: df98a8574ceb12041b81751c14e69979,
         type: 3}
@@ -18142,7 +18147,7 @@ PrefabInstance:
     - target: {fileID: 2176030958415896450, guid: df98a8574ceb12041b81751c14e69979,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.84
+      value: -24.87
       objectReference: {fileID: 0}
     - target: {fileID: 2176030958415896450, guid: df98a8574ceb12041b81751c14e69979,
         type: 3}
@@ -24289,12 +24294,12 @@ PrefabInstance:
     - target: {fileID: 2362753944135830815, guid: e248696443df54a468ecca5e5caf54c9,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.24084
+      value: 0.31326059
       objectReference: {fileID: 0}
     - target: {fileID: 2362753944135830815, guid: e248696443df54a468ecca5e5caf54c9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -342.1
+      value: -382.7
       objectReference: {fileID: 0}
     - target: {fileID: 6815951243112995089, guid: e248696443df54a468ecca5e5caf54c9,
         type: 3}
